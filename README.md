@@ -1,6 +1,8 @@
 # RTLAMR — Itron ERT Smart Meter Reader
 
-Read 900 MHz Itron ERT smart meters using an RTL-SDR dongle, then push consumption data into Home Assistant (Energy Dashboard), MQTT, or a local SQLite database.
+|Read 900 MHz Itron ERT smart meters using an RTL-SDR dongle, then push consumption data into Home Assistant (Energy Dashboard), MQTT, or a local SQLite database.
+
+![Home Assistant Energy Dashboard showing RTLAMR power meter data](assets/ha-energy-dashboard.jpg)
 
 ## Quick Install
 
