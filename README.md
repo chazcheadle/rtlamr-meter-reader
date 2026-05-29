@@ -21,10 +21,17 @@ Then reload skills (`/reload` in chat, or restart the gateway) and it becomes av
 
 | File | Purpose |
 |------|---------|
-| [`SKILL.md`](./SKILL.md) | Full setup guide — 14 steps, troubleshooting, verification checklist |
+| [`SKILL.md`](./SKILL.md) | Condensed setup guide — 14 steps, configuration reference, pitfalls |
 | [`scripts/rtlamr-ha-bridge.sh`](./scripts/rtlamr-ha-bridge.sh) | Production bridge: reads meter, pushes to HA REST API |
 | [`scripts/rtlamr-mqtt-bridge.py`](./scripts/rtlamr-mqtt-bridge.py) | MQTT bridge: publishes to HA auto-discovery topics |
-| [`references/`](./references/) | Reference docs on bridge validation, data verification, HA API |
+| [`references/bridge-validation.md`](./references/bridge-validation.md) | Meter ID filtering, spike detection, validation rules |
+| [`references/calibration-crosscheck.md`](./references/calibration-crosscheck.md) | Cross-referencing RTLAMR readings against known loads |
+| [`references/rest-api-sensor-lifecycle.md`](./references/rest-api-sensor-lifecycle.md) | REST sensor lifecycle, `last_reset` requirements |
+| [`references/architecture-variants.md`](./references/architecture-variants.md) | Proxmox multi-host setup |
+| [`references/mqtt-setup.md`](./references/mqtt-setup.md) | MQTT broker and auto-discovery configuration |
+| [`references/sqlite-backend.md`](./references/sqlite-backend.md) | SQLite schema and queries |
+| [`references/systemd-setup.md`](./references/systemd-setup.md) | Systemd timer service and timer units |
+| [`enclosure/`](./enclosure/) | Printable 3D model files for the RTL-SDR case |
 | [`LICENSE`](./LICENSE) | MIT |
 
 ## Requirements
