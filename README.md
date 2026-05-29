@@ -1,6 +1,6 @@
 # RTLAMR — Itron ERT Smart Meter Reader
 
-|Read 900 MHz Itron ERT smart meters using an RTL-SDR dongle, then push consumption data into Home Assistant (Energy Dashboard), MQTT, or a local SQLite database.
+Read 900 MHz Itron ERT smart meters using an RTL-SDR dongle, then push consumption data into Home Assistant (Energy Dashboard), MQTT, or a local SQLite database.
 
 ![Home Assistant Energy Dashboard showing RTLAMR power meter data](assets/ha-energy-dashboard.jpg)
 
@@ -10,7 +10,7 @@ This is a [Hermes Agent](https://hermes-agent.nousresearch.com) skill. To instal
 
 ```bash
 mkdir -p ~/.hermes/skills/hardware
-git clone https://github.com/<YOUR_ORG>/rtlamr-meter-reader ~/.hermes/skills/hardware/rtlamr-meter-reader
+git clone https://github.com/chazcheadle/rtlamr-meter-reader ~/.hermes/skills/hardware/rtlamr-meter-reader
 ```
 
 Then reload skills (`/reload` in chat, or restart the gateway) and it becomes available as `/rtlamr-meter-reader`.
