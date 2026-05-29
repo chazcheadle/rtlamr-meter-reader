@@ -1,0 +1,36 @@
+name: Feature Request
+description: Suggest an idea for the RTLAMR meter reader
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an idea. Please describe the problem you're trying to solve, not just your proposed solution.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What user need or pain point does this address?
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use Case
+      description: Who needs this and when?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: How do you think it could work? (Brief — maintainers may have a better approach)
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Other ways to solve the problem — shows you've thought about it
