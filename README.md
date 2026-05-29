@@ -47,6 +47,14 @@ Then reload skills (`/reload` in chat, or restart the gateway) and it becomes av
 RTL-SDR dongle → rtl_tcp → rtlamr → bridge script → Home Assistant / MQTT / SQLite
 ```
 
+## Maintenance
+
+Run `scripts/check-deps.py` to check for newer upstream versions of `rtlamr`, `paho-mqtt`, and `rtl-sdr`. Advisory only — no auto-upgrades.
+
+```bash
+./scripts/check-deps.py
+```
+
 ## License
 
 MIT
